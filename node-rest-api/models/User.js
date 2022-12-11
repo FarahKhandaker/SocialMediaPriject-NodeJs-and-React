@@ -39,7 +39,7 @@ const UserSchema = new mongoose.Schema({
         type: Boolean,
         default: false
     },
-    description: {
+    desc: {
         type: String,
         max: 50
     },
@@ -47,7 +47,7 @@ const UserSchema = new mongoose.Schema({
         type: String,
         max: 50
     },
-    fromCity: {
+    from: {
         type: String,
         max: 50
     },
